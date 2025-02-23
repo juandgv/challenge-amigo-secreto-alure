@@ -160,3 +160,38 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* Estilo básico para la lista */
+.friend-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 0;
+    padding: 6px 10px;
+    /* Antes estaba background-color: #f9f9f9; */
+    background-color: var(--color-secondary);
+    /* #FFF9EB */
+    border-radius: 4px;
+}
+
+/* Nombre del amigo */
+.friend-name {
+    flex: 1;
+    font-size: 1rem;
+}
+
+/* Ícono de Font Awesome para eliminar */
+.remove-icon {
+    color: red;
+    /* X en rojo */
+    cursor: pointer;
+    /* Mostrar la mano al pasar el ratón */
+    font-size: 1.2rem;
+    /* Ajusta el tamaño según tu preferencia */
+    margin-left: 8px;
+}
+
+/* Efecto hover opcional */
+.remove-icon:hover {
+    opacity: 0.7;
+}
