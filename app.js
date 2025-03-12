@@ -64,6 +64,13 @@ function sortearAmigo() {
         alert("El elemento de resultado no se encuentra en la página.");
     }
 }
+function reiniciarSorteo() {
+    amigos = []; // Vaciar el array de amigos
+    document.getElementById('listaAmigos').innerHTML = ""; // Limpiar la lista visual
+    document.getElementById('resultado').innerHTML = ""; // Limpiar el resultado
+    alert("El sorteo ha sido reiniciado. ¡Agrega nuevos amigos para comenzar!");
+}
+
 
 
 

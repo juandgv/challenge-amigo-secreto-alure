@@ -195,3 +195,40 @@ ul {
 .remove-icon:hover {
     opacity: 0.7;
 }
+
+.button-reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: #3D9AE2;
+    /* Color azul para el boton de reinicio */
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin-top: 10px;
+    /* Espacio entre botones */
+    transition: background-color 0.3s ease;
+}
+
+.button-reset img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.button-reset:hover {
+    background-color: #217AB7;
+    /* Un tono más oscuro para el hover */
+}
+
+.button-reset i {
+    margin-right: 10px;
+    /* Espacio entre el icono y el texto */
+    font-size: 20px;
+    /* Tamaño del icono */
+}
